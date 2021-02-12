@@ -3,4 +3,4 @@ README.md:
 	echo "\n" >> README.md
 	date >> README.md
 	echo "\n" >> README.md
-	wc -l guessinggame.sh >> README.md
+	cat guessinggame.sh | wc -l >> README.md
